@@ -2,7 +2,7 @@
   "name": "nice_debug",
   "version": "0.1.0",
   "description": "compact functionality to debug modules without unnecessarily overloading the logs",
-  "main": "index.js",
+  "main": "nice_debug.js",
   "scripts": {
     "test": "mocha tests/*.spec.js"
   },
