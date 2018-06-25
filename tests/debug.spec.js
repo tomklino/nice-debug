@@ -25,7 +25,8 @@ describe('basic usage of nice_debug', () => {
 
     debug(1, "message one", "message two");
 
-    expect(console.log).to.have.been.calledWith("message one", "message two");
+    expect(console.log).to.have.been
+      .calledWith("DEBUG:", "THE_TEST_DEBUG_SYMBOL", "message one", "message two");
   })
 
   it(`does not write to log when environment variable for debug symbol is not set`, () => {
