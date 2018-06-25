@@ -1,0 +1,20 @@
+{
+  "name": "nice_debug",
+  "version": "0.1.0",
+  "description": "compact functionality to debug modules without unnecessarily overloading the logs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.spec.js"
+  },
+  "keywords": [
+    "debug",
+    "debugger"
+  ],
+  "author": "Tom Klinovsky",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "sinon": "^6.0.1",
+    "sinon-chai": "^3.2.0"
+  }
+}
