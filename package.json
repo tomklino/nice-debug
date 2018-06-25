@@ -1,6 +1,6 @@
 {
   "name": "nice_debug",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "compact functionality to debug modules without unnecessarily overloading the logs",
   "main": "nice_debug.js",
   "scripts": {
