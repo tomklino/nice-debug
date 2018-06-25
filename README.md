@@ -8,7 +8,7 @@ nice-debug provides a compact functions that will write certain messages to log 
 ## Installation
 
 ```js
-npm install --save nice-debug
+npm install --save nice_debug
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ export MY_DEBUG_SYMBOL=2
 * In your code:
 
 ```js
-const debug = require('nice-debug')("MY_DEBUG_SYMBOL")
+const debug = require('nice_debug')("MY_DEBUG_SYMBOL")
 
 debug(1, "this message will be written because the debug environment variable is set to 2");
 debug(2, "this message will also be written");
