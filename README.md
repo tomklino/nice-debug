@@ -19,6 +19,8 @@ npm install --save nice-debug
 export MY_DEBUG_SYMBOL=2
 ```
 
+* In your code:
+
 ```js
 const debug = require('nice-debug')("MY_DEBUG_SYMBOL")
 
