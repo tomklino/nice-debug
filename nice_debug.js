@@ -4,7 +4,7 @@ function getDebugLevel(symbol) {
 
 function makeDebugger(symbol) {
   return function(level, ...msgs) {
-    if(level >= getDebugLevel(symbol)) {
+    if(getDebugLevel(symbol) >= level) {
       console.log(...msgs)
     }
   }
